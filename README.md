@@ -3,6 +3,9 @@
 可一键搜索、采集视频；
 联系 qq: NDY3ODQxNjAz  (base64)
 
+2026-01-20 更新：
+支持私信功能
+
 监控界面：
 <img width="2378" height="1467" alt="d220b2b3-2944-4dd1-ab2e-816b9004d667" src="https://github.com/user-attachments/assets/217c9703-959b-4fab-98ca-75d0b58086f6" />
 采集视频界面：
