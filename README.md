@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/badge/version-2.0-green.svg)](https://github.com/cxiniao/-)
 [![Windows](https://img.shields.io/badge/platform-Windows-orange.svg)](https://github.com/cxiniao/-)
 
-> **专业抖音营销人员的自动化获客利器 | 评论监控 + 视频采集 + 私信转化 一体化解决方案**
+> **专业抖音营销人员的自动化获客利器 | 评论监控 + 视频采集 + 私信转化 一体化解决方案 | 联系QQ：NDY3ODQxNjAz (base64)**
 
 ---
 
