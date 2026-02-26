@@ -134,10 +134,12 @@
 ### 📊 评论监控界面
 
 #### 实时监控视图
-<img width="1600" height="989" alt="监控" src="https://github.com/user-attachments/assets/e5276299-32ae-4879-811e-c5fd74ad6440" />
+<img width="1600" height="989" alt="image" src="https://github.com/user-attachments/assets/68219652-e971-4b74-849e-e60a75fa9bdf" />
+
 *图1：评论监控主界面 - 实时显示监控状态、轮次和新评论数*
 
-<img width="1600" height="989" alt="监控-筛选配置" src="https://github.com/user-attachments/assets/21d09aa4-a3bd-4e8f-b6e5-13a0260caa1b" />
+<img width="1600" height="989" alt="image" src="https://github.com/user-attachments/assets/da83ecd6-7a95-4e68-bd83-0c376b405185" />
+
 
 *图2：评论监控筛选界面 - 支持多个条件筛选*
 
