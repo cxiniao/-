@@ -1,7 +1,7 @@
 # 🎯 抖音截流私信获客系统 - 专业级短视频营销自动化工具
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.0-green.svg)](https://github.com/cxiniao/-)
+[![Version](https://img.shields.io/badge/version-3.0-green.svg)](https://github.com/cxiniao/-)
 [![Windows](https://img.shields.io/badge/platform-Windows-orange.svg)](https://github.com/cxiniao/-)
 
 > **专业抖音营销人员的自动化获客利器 | 评论监控 + 视频采集 + 私信转化 一体化解决方案 | 联系QQ：NDY3ODQxNjAz (base64)**
@@ -129,49 +129,80 @@
 - **失败账号隔离**：连续失败账号自动暂停使用
 
 ---
-##  界面预览
 
-### 📊 评论监控界面
+## 📸 界面预览
 
-#### 实时监控视图
-<img width="1600" height="989" alt="image" src="https://github.com/user-attachments/assets/68219652-e971-4b74-849e-e60a75fa9bdf" />
+### 1. 评论监控（核心功能）
 
-*图1：评论监控主界面 - 实时显示监控状态、轮次和新评论数*
+<img width="1602" height="991" alt="image" src="https://github.com/user-attachments/assets/5264a0e1-873e-4c1b-a647-6bdb00e7258f" />
 
-<img width="1600" height="989" alt="image" src="https://github.com/user-attachments/assets/da83ecd6-7a95-4e68-bd83-0c376b405185" />
+- 顶部状态栏：当前轮次 / 新捕获 / 设备池（X/X）
+- 4 个实时统计卡：轮询次数 / 新评论 / 通过筛选 / 已过滤
+- 实时评论流表格：视频ID、用户昵称（带二维码）、UID、地区、内容、点赞、时间
+- 视频筛选 + 导出评论数据
+- 启动 / 停止监控
+
+### 2. 用户主页二维码
+
+点击评论流中任意昵称右侧的二维码图标即可弹出，扫码直达用户主页：
+
+<img width="1605" height="994" alt="image" src="https://github.com/user-attachments/assets/abb2ddc6-78c7-4c23-8d01-4de0bdf07dbe" />
 
 
-*图2：评论监控筛选界面 - 支持多个条件筛选*
+### 3. 视频管理
 
----
+<img width="1606" height="993" alt="image" src="https://github.com/user-attachments/assets/2d29a553-8e35-49fd-8bd6-dc3a60958a57" />
 
-### 🎯 视频采集界面
 
-#### 手动采集
-<img width="1600" height="989" alt="手动采集" src="https://github.com/user-attachments/assets/d681d6a3-4cba-44f2-8e86-9ded182cd4a8" />
+- 单链接 / 批量添加视频，备注、热度分组、今日新增、累计评论一目了然
+- 支持快捷筛选（全部 / 今日新增 / 7 天无新评论 / 30 天无新评论）与批量操作
 
-*图3：支持手动采集、手动筛选视频添加到监控列表*
+### 4. 筛选配置
 
-#### 自动采集
-<img width="1600" height="989" alt="自动采集" src="https://github.com/user-attachments/assets/57596e16-eb1f-4f86-a653-fb887e92a898" />
-*图4：支持多个关键词自动采集最新视频自动添加到监控，实时监控最新视频数据，获客更快速*
+<img width="1605" height="994" alt="image" src="https://github.com/user-attachments/assets/6c97ad77-f1da-491a-b508-4a4ce1c0a177" />
 
----
 
-### 💬 私信转化界面
+- 正向 / 反向关键词、排除用户名、地区包含 / 排除，实时测试筛选效果
+- 关键词库按视频维度管理，可独立启停
 
-#### 自动私信
-<img width="1600" height="989" alt="私信" src="https://github.com/user-attachments/assets/31c58747-3bab-42cb-b5db-6e8455facb55" />
+### 5. 黑名单
 
-*图5：自动私信界面 - 支持多账号同时在线、状态监控、信息提取、显示发送日志、任务队列、统计数据*
+<img width="1606" height="997" alt="image" src="https://github.com/user-attachments/assets/1e2aa96a-93d7-47f6-8b7f-68a505b641e4" />
 
----
 
-### 📝 日志界面
+- 手动添加 / 批量导入黑名单
+- 自动拉黑：评论命中规则时自动加入黑名单（完整版）
 
-<img width="1600" height="989" alt="日志" src="https://github.com/user-attachments/assets/6b303c94-d120-4fcc-98da-c293eb854ae6" />
+### 6. 视频采集
 
-*图6：系统日志 - 完整记录所有操作和系统事件*
+<img width="1604" height="994" alt="image" src="https://github.com/user-attachments/assets/169d6eaa-76a0-43e3-840c-227e892fa096" />
+
+
+- 按关键词批量采集指定作者主页下的视频，自动入库
+- 定时自动采集、采集历史记录
+
+### 7. 自动私信
+
+<img width="1605" height="995" alt="image" src="https://github.com/user-attachments/assets/18fa5da0-0e5e-4775-8b3f-c84b32819494" />
+
+
+- 多账号轮发、发送间隔 / 文案模板 / 已发送去重
+- 私信日志可追溯
+
+### 8. 推送通知
+
+<img width="1604" height="993" alt="image" src="https://github.com/user-attachments/assets/389f40f3-c02d-49a8-8a17-41e7b679c065" />
+
+
+- 飞书 / 钉钉 Webhook，关键评论即时推送
+- 自定义推送关键词与触发规则
+
+### 9. 日志记录
+
+<img width="1608" height="997" alt="image" src="https://github.com/user-attachments/assets/de4b8dc3-f21d-43da-a9d7-47c37da43a39" />
+
+
+- 全量运行日志，支持级别筛选与搜索
 
 ---
 
@@ -337,6 +368,20 @@ A: 所有数据保存在本地JSON文件中，包括：
 ---
 
 ## 📝 更新日志
+
+### v3.0.0 (2026-08-06)
+
+**体验版界面与完整版对齐：**
+
+- ✅ 顶部状态栏统一为 3 项统计（当前轮次 / 新捕获 / 设备池）
+- ✅ 新增实时统计卡片：轮询次数 / 新评论 / 通过筛选 / 已过滤
+- ✅ 实时评论流表格扩展为 7 列：视频ID / 用户昵称（含二维码入口）/ UID / 地区 / 评论内容 / 点赞 / 时间
+- ✅ 评论流模块右上角补齐：视频筛选下拉 + 导出按钮
+- ✅ 用户主页二维码弹窗：弹窗正确展示，二维码 / 主页链接
+- ✅ UID 点击复制 / 主页链接复制 / 评论导出
+- ✅ 监控引擎升级为移动端接口 + 设备池调度
+- ✅ 新增视频采集、自动私信、推送通知、日志记录模块（完整版）
+- ✅ 黑名单管理、筛选配置、视频管理
 
 ### v2.0.0 (2026-02-26)
 - ✅ 完整的评论监控系统
